@@ -13,7 +13,7 @@ function renderProjects() {
               <i class="fa fa-plus fa-3x" ></i>
             </div>
           </div>
-          <img class="img-fluid" src="${proj.img}-thumbnail.jpg" alt="">
+          <img class="img-fluid" src="${proj.img}-thumbnail.png" alt="">
         </a>
         <div class="portfolio-caption">
           <h4>${proj.name}</h4>
@@ -30,7 +30,7 @@ function onRenderModal(id) {
     })
     var modalHtml = `<a href="${proj.url}"><h2>${proj.name}</h2></a>
                   <p class="item-intro text-muted">${proj.title}</p>
-                  <img class="img-fluid d-block mx-auto" src="${proj.img}-full.jpg" alt="">
+                  <img class="img-fluid d-block mx-auto" src="${proj.img}-full.png" alt="">
                   <p>${proj.desc}</p>
                   <ul class="list-inline">
                     <li>Publised at: ${proj.publishedAt}</li>
